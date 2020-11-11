@@ -1,0 +1,23 @@
+{
+  "name": "E2E-What3Words",
+  "version": "1.0.0",
+  "description": "E2E Automated Test-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legzy27/E2E-What3Words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legzy27/E2E-What3Words/issues"
+  },
+  "homepage": "https://github.com/legzy27/E2E-What3Words#readme",
+  "dependencies": {
+    "cypress": "^5.6.0"
+  }
+}
