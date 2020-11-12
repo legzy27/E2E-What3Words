@@ -6,6 +6,11 @@ workflows:
     jobs:
       - node/test
 
-       - restore_cache:
-          keys:
-            - '{{ checksum  "~/project/package-lock.json" }}'
+      steps:
+        - checkout
+        - run:
+          name: Install npm dependencies
+          command: | 
+             npm install --save
+        - run:
+          name: npm run test
