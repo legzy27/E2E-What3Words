@@ -1,7 +1,9 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@1.26.0
+  cypress: cypress-io/cypress@1
 workflows:
   build:
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      - cypress/run:
+          executor: cypress/browsers-chrome69
+          browser: chrome
