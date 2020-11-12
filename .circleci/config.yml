@@ -5,7 +5,3 @@ workflows:
   node-tests:
     jobs:
       - node/test
-
-       - restore_cache:
-          keys:
-            - '{{ checksum  "~/project/package-lock.json" }}'
