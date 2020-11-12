@@ -19,4 +19,4 @@ E2E Automated Test-framework
 * Verify share copy link work
 * Verify customise share settings work with email
 * Verify customise share settings work with sms
-* Verify copy user can copy link
+* Verify user can copy link
