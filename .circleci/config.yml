@@ -5,3 +5,12 @@ workflows:
   node-tests:
     jobs:
       - node/test
+      steps:
+        - checkout
+        - run:
+          name: Install npm dependencies
+          command: | 
+             npm install --save
+        - run:
+          name: npm run test
+
