@@ -1,5 +1,5 @@
-describe('Search', function(){
-    it('Location Search', function(){
+describe('Search Location', function(){
+    it('Location Based Search', function(){
         cy.visit('https://what3words.com/daring.lion.race')
         cy.get('[data-testid=CookieNotice-Close]').click()
         cy.get('#search-popover').type('Bromley{enter}').type('{downarrow}').click();
