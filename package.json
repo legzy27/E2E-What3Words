@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/legzy27/E2E-What3Words#readme",
   "dependencies": {
-    "cypress": "^1.0.0",
+    "cypress": "^5.6.0",
     "cypress-enter-plugin": "^1.0.0",
     "fs-extra": "^9.0.1"
   },
